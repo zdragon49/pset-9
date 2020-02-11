@@ -1,0 +1,146 @@
+/*
+General
+*/
+* {
+}
+/*
+Home Page
+*/
+#index-home-page {
+  background-color:#008080;
+}
+#tic-tac-toe-link {
+  font-size: 24px;
+}
+/*
+This is all for tic-tac
+*/
+body {
+  text-align: center;
+  font-family: "Roboto", monospace;
+}
+
+h1 {
+  margin: 0 auto;
+  font-family:"Major Mono Display", monospace;
+  font-size: 48px;
+  margin: 2%
+}
+
+h2 {
+  font-size: 36px
+  font-weight: lighter;
+  margin: 2%
+}
+
+.container {
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.column {
+  height: 100%;
+  width: 100%;
+  flex-direction: column;
+}
+
+.wrap {
+  flex-wrap: wrap;
+  height: 456px;
+  width: 456px;
+}
+
+.square {
+  border: 1px solid rgba(0, 0, 0, 0.75);
+  font-size: 96px;
+  height: 150px;
+  line-height: 150px;
+  user-select: none;
+  width: 150px;
+  border-color: white;
+}
+.square:hover {
+  background-color: #4B6B12;
+  cursor: pointer;
+}
+
+#reset-button {
+  background-color: #257C7C;
+  border: 1px solid black;
+  color: black;
+  font-size: 21px;
+  line-height: 55px;
+  margin: 1%;
+  text-align: center;
+  width: 456px;
+}
+
+#reset-button:hover {
+  background-color: #9B2E2E;
+  color: white;
+  cursor: pointer;
+}
+
+#table {
+  border: 6px dotted white;
+  height: 30px;
+  width: 60%;
+  font-size: 24px;
+  margin-left:auto;
+  margin-right:auto;
+}
+#table:hover {
+  border: 6px solid white;
+  height: 30px;
+  width: 60%;
+  font-size: 24px;
+  margin-left:auto;
+  margin-right:auto;
+  background-color:#257C7C;
+}
+#reset-score {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  border: 3px solid white;
+  color: white;
+  font-size: 20px;
+  text-align: center;
+  width: 200px;
+  font-family:"Major Mono Display", monospace;
+}
+#reset-score:hover {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  border: 3px dotted white;
+  color: white;
+  font-size: 20px;
+  text-align: center;
+  width: 200px;
+  font-family:"Major Mono Display", monospace;
+  background-color: #4B6B12;
+}
+#player-turn {
+   margin-left: auto;
+   margin-right: auto;
+   border: 3px solid white;
+   color: white;
+   font-size: 20px;
+   text-align: center;
+   width: 100px;
+   height: 100px;
+}
+
+#player-turn:hover {
+  margin-left: auto;
+  margin-right: auto;
+  border: 3px dotted white;
+  color: white;
+  font-size: 20px;
+  text-align: center;
+  width: 100px;
+  height: 100px;
+  background-color: #9B2E2E;
+}
