@@ -10,11 +10,29 @@ Home Page
   background-color:#008080;
 }
 #tic-tac-toe-link {
-  font-size: 24px;
+  padding-left: 3em;
+  padding-right: 3em;
+}
+#connect-four-link {
+  padding-left: 3em;
+  padding-right: 3em;
+}
+#checkers-link {
+  padding-left: 3em;
+  padding-right: 3em;
 }
 #index-link-table {
+  border: 20px dashed green;
+  font-size: 24px;
   margin-left: auto;
   margin-right: auto;
+}
+#index-link-table:hover {
+  border: 20px solid red;
+  font-size: 24px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color:#8CA531;
 }
 /*
 This is all for tic-tac
@@ -22,6 +40,7 @@ This is all for tic-tac
 body {
   text-align: center;
   font-family: "Roboto", monospace;
+  background-color:#008080;
 }
 
 h1 {
@@ -113,6 +132,7 @@ h2 {
   text-align: center;
   width: 200px;
   font-family:"Major Mono Display", monospace;
+  background-color:#008080;
 }
 #reset-score:hover {
   margin-left: auto;
@@ -135,6 +155,7 @@ h2 {
    text-align: center;
    width: 100px;
    height: 100px;
+   background-color:#008080;
 }
 
 #player-turn:hover {
