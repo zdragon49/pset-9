@@ -12,6 +12,10 @@ Home Page
 #tic-tac-toe-link {
   font-size: 24px;
 }
+#index-link-table {
+  margin-left: auto;
+  margin-right: auto;
+}
 /*
 This is all for tic-tac
 */
