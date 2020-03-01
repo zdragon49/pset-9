@@ -170,8 +170,18 @@ h2 {
   height: 100px;
   background-color: #9B2E2E;
 }
-/* Connect four
+/* Brick Breaker
 */
 #brick-canvas {
   border: 2px solid black;
+}
+/* checkers
+*/
+.dark-square {
+    background-image: url("../images/black-squares.jpg");
+    background-size: cover;
+}
+
+.light-square {
+    background-image: url("../images/white-squares.jpg");
 }
