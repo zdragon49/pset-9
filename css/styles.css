@@ -178,13 +178,3 @@ h2 {
 #brick-canvas {
   border: 2px solid black;
 }
-/* checkers
-*/
-.dark-square {
-    background-image: url("../images/black-squares.jpg");
-    background-size: cover;
-}
-
-.light-square {
-    background-image: url("../images/white-squares.jpg");
-}
