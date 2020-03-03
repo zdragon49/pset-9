@@ -27,6 +27,7 @@ Home Page
   font-size: 24px;
   margin-left: auto;
   margin-right: auto;
+  padding: 2em;
 }
 #index-link-table:hover {
   border: 20px solid red;
