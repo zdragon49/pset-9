@@ -1,6 +1,4 @@
 *{
-	padding: 0;
-	margin: 0;
   font-family:"Major Mono Display", monospace;
 }
 
@@ -14,7 +12,7 @@ body {
 #index-link-table {
   border: 15px dashed green;
   font-size: 24px;
-  margin-right: 4em;
+  margin-right: 160px;
   padding: 40px;
   width: 800px
 
@@ -26,4 +24,110 @@ body {
   margin-right: auto;
   background-color:#8CA531;
   width: 700px
+}
+.pawn
+{
+ width:60px;
+ height:60px;
+ float:left;
+ font-size: 60px;
+}
+
+div.secondPlayer {
+    border: 3px dashed white;
+    border-radius: 40%;
+	  background-color: black;
+    width: 60px;
+    height: 60px;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+	  font-size: 45px;
+	  color: red;
+ }
+
+ div.firstPlayer {
+    border: 3px dotted black;
+    border-radius: 40%;
+	  background-color: white;
+    width: 60px;
+    height: 60px;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+	  color: green;
+	  font-size: 45px;
+ }
+
+.divChicken {
+  text-align: center;
+  font-family:"Major Mono Display", monospace;
+  margin-right:auto;
+  margin-left: auto;
+  width: 396px;
+  text-align: center;
+}
+
+#checkersBoard
+{
+    margin-top: 2em;
+    width:480px;
+    height:480px;
+    border:1px dotted black;
+}
+
+h1 {
+  margin: auto;
+  font-family:"Major Mono Display", monospace;
+  margin-left: 80px;
+  margin-right: auto;
+  font-size: 30px;
+  color: white;
+}
+a {
+  margin-left: 50px;
+  margin-right: -50px
+}
+h2 {
+  margin: 0 auto;
+  font-size: 30px;
+  font-weight: lighter;
+  color: white;
+  margin-left: 80px;
+  margin-right: auto;
+}
+
+h3 {
+  margin: 0 auto;
+  font-weight: lighter;
+  font-size: 20px;
+  text-decoration: underline;
+}
+
+h4 {
+  margin: 0 auto;
+  font-weight: bolder;
+  font-size: 20px;
+}
+
+.score {
+  display:inline-block;
+  width: 30%;
+  text-align: center;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.column {
+  height: 100%;
+  width: 100%;
+  flex-direction: column;
+}
+
+.wrap {
+  flex-wrap: wrap;
+  height: 396px;
+  width: 396px;
 }
