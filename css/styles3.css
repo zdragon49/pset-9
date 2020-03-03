@@ -1,1 +1,29 @@
+*{
+	padding: 0;
+	margin: 0;
+  font-family:"Major Mono Display", monospace;
+}
 
+body {
+  background-color: #008080;
+  text-align: center;
+  margin-right:auto;
+  margin-left:auto;
+  width: 500px;
+}
+#index-link-table {
+  border: 15px dashed green;
+  font-size: 24px;
+  margin-right: 4em;
+  padding: 40px;
+  width: 800px
+
+}
+#index-link-table:hover {
+  border: 20px solid red;
+  font-size: 24px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color:#8CA531;
+  width: 700px
+}
