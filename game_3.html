@@ -1,142 +1,44 @@
 <!DOCTYPE html>
 
 <html lang="en">
-    <head>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
 
-      <link href="https://fonts.googleapis.com/css?family=Major+Mono+Display" rel="stylesheet" />
-      <link href="css/styles.css" rel="stylesheet" type="text/css" />
-      <script defer src="js/app3.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Major+Mono+Display" rel="stylesheet" />
+    <link href="css/styles3.css" rel="stylesheet" type="text/css" />
+    <script defer src="js/app3.js"></script>
 
-      <title>Gamin Suite 101</title>
-	</head>
+    <title>Gamin Suite 101</title>
+  </head>
 
-<body id="ht">
-
-    <table id = "index-link-table">
-      <tr>
-       <th class = "links" id = "tic-tac-toe-link"> <a href="game_1.html">Tic-Tac-Toe</a></th>
-       <th class = "links" id = "brick-breaker-link"> <a href="game_2.html">Brick Breaker</a></th>
-       <th class = "links" id = "home-link"> <a href="index.html">Back Home</a></th>
-     </tr>
-
-	<div class="checker whiteCchecker" style="display:none"> </div>
-	<div class="checker blackChecker" style="display:none"> </div>
+  <!DOCTYPE html>
 
 
-	<div class="square" style="display: none" id ="ht"> </div>
-	<div class="blackBackground" id="blackBackground"> </div>
+<body>
+  <table id = "index-link-table">
+    <tr>
+     <th class = "links" id = "tic-tac-toe-link"> <a href="game_1.html">Tic-Tac-Toe</a></th>
+     <th class = "links" id = "home-link"> <a href="index.html">Back Home</a></th>
+     <th class = "links" id = "checkers-link"> <a href="game_3.html">Checkers</a></th>
+   </tr>
+ </table>
 
-	<div class="score" id="score">
-		<br>
-	</div>
-	<div class="table" id="table">
+  <div id="div1" align=center>
+    <div class="divChicken">
+      <h1>Checkers</h1>
+      <h2 id="h2"></h2>
 
-		<div class="checker whiteChecker"> </div>
-		<div class="checker whiteChecker"> </div>
-		<div class="checker whiteChecker"> </div>
-		<div class="checker whiteChecker"> </div>
-		<div class="checker whiteChecker"> </div>
-		<div class="checker whiteChecker"> </div>
-		<div class="checker whiteChecker"> </div>
-		<div class="checker whiteChecker"> </div>
-		<div class="checker whiteChecker"> </div>
-		<div class="checker whiteChecker"> </div>
-		<div class="checker whiteChecker"> </div>
-		<div class="checker whiteChecker"> </div>
+      <div id="checkersBoard" class="class">
+      </div>
 
-		<div class="checker blackChecker"> </div>
-		<div class="checker blackChecker"> </div>
-		<div class="checker blackChecker"> </div>
-		<div class="checker blackChecker"> </div>
-		<div class="checker blackChecker"> </div>
-		<div class="checker blackChecker"> </div>	
-		<div class="checker blackChecker"> </div>
-		<div class="checker blackChecker"> </div>
-		<div class="checker blackChecker"> </div>
-		<div class="checker blackChecker"> </div>
-		<div class="checker blackChecker"> </div>
-		
-		<div class="square blackSquare"> </div>
-		<div class="square whiteSquare"> </div>
-		<div class="square blackSquare"> </div>
-		<div class="square whiteSquare"> </div>
-		<div class="square blackSquare"> </div>
-		<div class="square whiteSquare"> </div>
-		<div class="square blackSquare"> </div>
-		<div class="square whiteSquare"> </div>
-		<div class="clearFloat"> </div>
-	
-		<div class="square blackSquare"> </div>
-		<div class="square whiteSquare"> </div>
-		<div class="square blackSquare"> </div>
-		<div class="square whiteSquare"> </div>
-		<div class="square blackSquare"> </div>
-		<div class="square whiteSquare"> </div>
-		<div class="square blackSquare"> </div>
-		<div class="square whiteSquare"> </div>
-		<div class="clearFloat"> </div>
-		
-		<div class="square blackSquare"> </div>
-		<div class="square whiteSquare"> </div>
-		<div class="square blackSquare"> </div>
-		<div class="square whiteSquare"> </div>
-		<div class="square blackSquare"> </div>
-		<div class="square whiteSquare"> </div>
-		<div class="square blackSquare"> </div>
-		<div class="square whiteSquare"> </div>
-		<div class="clearFloat"> </div>
+      <div id = "buttons">
+        <div id="reset-button">Play Again</div>
+      </div>
 
-		<div class="square blackSquare"> </div>
-		<div class="square whiteSquare"> </div>
-		<div class="square blackSquare"> </div>
-		<div class="square whiteSquare"> </div>
-		<div class="square blackSquare"> </div>
-		<div class="square whiteSquare"> </div>
-		<div class="square blackSquare"> </div>
-		<div class="square whiteSquare"> </div>
-		<div class="clearFloat"> </div>
+  </div>
+ </div>
+</body>
 
-		<div class="square blackSquare"> </div>
-		<div class="square whiteSquare"> </div>
-		<div class="square blackSquare"> </div>
-		<div class="square whiteSquare"> </div>
-		<div class="square blackSquare"> </div>
-		<div class="square whiteSquare"> </div>
-		<div class="square blackSquare"> </div>
-		<div class="square whiteSquare"> </div>
-		<div class="clearFloat"> </div>
-
-		<div class="square blackSquare"> </div>
-		<div class="square whiteSquare"> </div>
-		<div class="square blackSquare"> </div>
-		<div class="square whiteSquare"> </div>
-		<div class="square blackSquare"> </div>
-		<div class="square whiteSquare"> </div>
-		<div class="square blackSquare"> </div>
-		<div class="square whiteSquare"> </div>
-		<div class="clearFloat"> </div>
-
-		<div class="square blackSquare"> </div>
-		<div class="square whiteSquare"> </div>
-		<div class="square blackSquare"> </div>
-		<div class="square whiteSquare"> </div>
-		<div class="square blackSquare"> </div>
-		<div class="square whiteSquare"> </div>
-		<div class="square blackSquare"> </div>
-		<div class="square whiteSquare"> </div>
-		<div class="clearFloat"> </div>
-
-		<div class="square blackSquare"> </div>
-		<div class="square whiteSquare"> </div>
-		<div class="square blackSquare"> </div>
-		<div class="square whiteSquare"> </div>
-		<div class="square blackSquare"> </div>
-		<div class="square whiteSquare"> </div>
-		<div class="square blackSquare"> </div>
-		<div class="square whiteSquare"> </div>
-		<div class="clearFloat"> </div>
-
-	</div>
-
-	</body>
 </html>
